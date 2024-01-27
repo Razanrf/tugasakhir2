@@ -1,0 +1,167 @@
+<html>
+	<title>STEAM</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/w3.css">
+	<style>
+		body {
+			background-image: url(img/bg.png); 
+			background-repeat: no-repeat; 
+			background-size: cover; 
+		}
+	</style>
+	<body>
+		<div class="w3-bar">
+			<img src="Img/bannerr.png" style="width: 100%; height: 15%;">
+		</div>
+		<div class="w3-bar w3-black">
+			<button class="w3-bar-item w3-button" onclick="openImage('AS')">ABOUT STEAM</button>
+			<button class="w3-bar-item w3-button "  onclick="openImage('STORE')">STORE</button>
+			<div class="w3-dropdown-hover w3-purple w3-right">
+                <button class="w3-button" style="font-weight: bold;">ABOUT ME</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-black">
+                    <button class="w3-bar-item w3-button" onclick="openImage('Profile')">Profile
+                    <button class="w3-bar-item w3-button" onclick="openImage('Hoby')">Hoby
+                    <button class="w3-bar-item w3-button" onclick="openImage('ACH')">Achievement
+                    <button class="w3-bar-item w3-button" onclick="openImage('WYD')">What You do?
+                    <button class="w3-bar-item w3-button" onclick="openImage('WYDI')">What You Do It?
+                </div>
+			</div>	
+			<div class="w3-dropdown-hover w3-purple w3-right">
+				<button class="w3-button " style="font-weight: bold;">MY LIBRARY</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-black">
+					<button class="w3-bar-item w3-button w3-purple" onclick="openImage('Brawlhalla')"><img src="Img/brawl.png" style="width: 20px; height: 20px;"> Brawlhalla
+						<button class="w3-bar-item w3-button  w3-purple" onclick="openImage('MyH')"><img src="Img/myhau.png"  style="width: 20px; height: 20px;"> My Hero Academia
+						<button class="w3-bar-item w3-button  w3-purple" onclick="openImage('L4D2')"><img src="Img/l4d.png"  style="width: 20px; height: 20px;"> Life 4 Death 2
+						<button class="w3-bar-item w3-button  w3-purple" onclick="openImage('TheF')"><img src="Img/theff.png"  style="width: 20px; height: 20px;"> The Forest
+				</div>
+			</div> 
+
+		</div>
+        <center>
+            <div id="AS" class="w3-container image w3-animate-zoom" style="display:none">
+                <img src="Img/ssteamu.png" style="width: 200px;">
+                <h2 style="color: blueviolet;">
+					<p>Steam salah satu fiturnya yang paling populer kemampuan pengguna untuk 
+					<br>menggunakan komputer mana pun untuk memainkan game. 
+					<br>Itu game yang dibeli atau unduh ke akun Steam. 
+					<br>Ini juga memungkinkan pengguna untuk menyimpan banyak koleksi game 
+					<br>tanpa menggunakan terlalu banyak memori komputer.</h2>
+            </div>
+            <div id="STORE" class="w3-bar image w3-animate-bottom" >
+				<img src="Img/sstore.png" style="width: 100%; height: 100%;">
+            </div>
+            <div id="Brawlhalla" class="w3-container image w3-animate-zoom" style="display:none">
+				<p></p>
+				<img src='Img/brawll.png' style="width: 250px;">
+                <h2 style="color: blueviolet;">
+					<p>Brawhalla adalah game pertarungan platform gratis yang bisa dimainkan 
+					<br>hingga 8 pemain secara online atau lokal. Game ini menawarkan berbagai 
+					<br>mode permainan, seperti free-for-all, ranked, atau private room. Anda 
+					<br>juga bisa memilih dari lebih dari 50 karakter legendaris yang memiliki 
+					<br>gaya bertarung dan senjata yang berbeda-beda.</h2>
+					<button class="w3-container w3-animate-zoom w3-purple"> PLAY</button>    
+            </div>
+			<div id="MyH" class="w3-container image w3-animate-zoom" style="display:none">
+				<p></p>
+				<img src='Img/myhau.png' style="width: 250px;">
+                <h2 style="color: blueviolet;">
+					<p>“My Hero Academia: The Strongest Hero,” game ini merupakan aksi-RPG 
+					<br>dimana pemain dapat membangun tim mereka sendiri yang terdiri dari karakter 
+					<br>dalam serial anime seperti Shigaraki dan Nomus untuk melawan penjahat  
+					<br>dalam story mode atau melawan pemain lain dalam pertempuran PvP.</h2>
+					<p><button class="w3-container w3-animate-zoom w3-purple"> PLAY</button>
+            </div>
+			<div id="L4D2" class="w3-container image w3-animate-zoom" style="display:none">
+				<p></p>
+				<im src='Img/l4id.png' style="width: 250px;">
+                <h2 style="color: blueviolet;">
+					<p>Left 4 Dead 2 adalah permainan video kooperatif, horor sintasan dan 
+					<br>tembak-menembak orang-pertama yang mengikut Left 4 Dead. Permainan ini 
+					<br>dikembangkan oleh Valve Corporation.</h2>
+					<button class="w3-container w3-animate-zoom w3-purple"> PLAY</button>
+            </div>
+			<div id="TheF" class="w3-container image w3-animate-top" style="display:none">
+				<p></p>
+				<img src='Img/ttheforest.png' style="width: 250px;">
+                <h2 style="color: blueviolet;">
+					<p>The Forest adalah video game survival horror yang dikembangkan dan 
+					<br>diterbitkan oleh Endnight Games. Permainan berlangsung di semenanjung  
+					<br>hutan lebat terpencil, di mana karakter pemain Eric LeBlanc harus 
+					<br>melawan monster kanibal, sambil mencari putranya Timmy setelah
+					<br> kecelakaan pesawat.</p></h2>
+					<button class="w3-container w3-animate-zoom w3-purple"> PLAY</button>
+            </div>
+			<div id="Profile" class="w3-container image w3-animate-top" style="display:none">
+				<p></p>
+				<img src='Img/profile.jpeg' style="width: 250px;">
+                <h2 style="color: blueviolet;">
+					<p>Razan Rijalul Fiqri
+					<br>10123189
+					<br>Universitas komputer Indonesia
+					<br>Fakultas Teknik Ilmu komputer
+					<br>Teknik Informatika
+					<br>IF-5
+					</p>
+					</h2>
+					
+            </div>
+			<div id="Hoby" class="w3-container image w3-animate-top" style="display:none">
+				<p></p>
+				<h1 style="color: blueviolet;">
+					BASKET
+				</h1>
+				<img src='Img/basket1.jpeg' style="width: 250px;">
+				<img src='Img/basket2.jpeg' style="width: 235px;">
+				<P></P>
+				<h1 style="color: blueviolet;">
+					Mobile Legend
+				</h1>
+				<img src='Img/Mole.jpeg' style="width: 250px;">
+                <h2 style="color: blueviolet;">
+					</h2>
+					
+            </div>
+			<div id="ACH" class="w3-container image w3-animate-top" style="display:none">
+				<p></p>
+				<img src='Img/juara.jpeg' style="width: 250px;">
+				<img src='Img/juara3.jpeg' style="width: 225px;">
+				<p></p>
+				<img src='Img/juara2.jpeg' style="width: 250px;">
+				<img src='Img/juara4.jpeg' style="width: 250px;">
+				<img src='Img/juara1.jpe' style="width: 275px;">
+                <h2 style="color: blueviolet;">
+					</h2>
+            </div>
+			<div id="WYD" class="w3-container image w3-animate-top" style="display:none">
+				<p></p>
+				
+                <h1 style="color: blueviolet;">
+					Membuat Tugas Akhir Mata Kuliah 
+					<p>Program Web</p>
+					</h1>
+					
+            </div>
+			<div id="WYDI" class="w3-container image w3-animate-top" style="display:none">
+				<p></p>
+				
+                <h1 style="color: blueviolet;">
+					<p>Saya Membuat Suatu Website dengan HTML dan CSS
+
+					</p>
+					</h1>
+					
+            </div>
+            
+        </center>
+		<script>
+		function openImage(animasi) {
+			var i;
+			var x = document.getElementsByClassName("image");
+			for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";
+			}
+			document.getElementById(animasi).style.display = "block";
+		}
+		</script>
+	</body>
+</html>
